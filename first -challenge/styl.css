@@ -1,0 +1,397 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #0A0C1B;
+
+}
+
+.card{
+    margin:70px;
+    background-color:#1E1D40;
+    color:#FEFFFD;
+    font-family: 'Poppins', sans-serif;
+    max-height: fit-content;
+    height: 446px;
+    width:1000px;
+    position: relative;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+span{
+    color:#9350BF;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    padding:20px;
+    margin: 10px;
+    position: absolute;
+    top:62px;
+    
+}
+p{
+    padding:20px;
+    margin: 10px;
+    color:#807E94;
+    font-size: 12px;
+    font-weight:bold;
+    position: absolute;
+    top:170px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.img-1{
+    height: 446px;
+    width:500px;
+    position: absolute;
+    top:0;
+    right: 0;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius: 8px;
+}
+
+
+  
+.shade{
+    background-color:#9350bf86 ;
+    height:446px;
+    width:500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-blend-mode:screen;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  
+  
+}
+.shade-1{
+    background-color:rgb(126 6 240 / 23%);
+    height:446px;
+    width:500px;
+    position: absolute;
+    top:0;
+    right: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+ 
+
+}
+.num-1{
+    color:white;
+}
+.one,.two,.three{
+    font-size: 17px;
+    font-weight: bold;
+    color:white
+}
+.one{
+    margin-top: 25px;
+    position: absolute;
+    top: 286px;
+    left: -1px;
+}
+.two{
+    position: absolute;
+    top:300px;
+    left: 140px;
+}
+.three{
+    position: absolute;
+    top: 300px;
+    left: 285px; 
+}
+.master{
+    color:#807E94;
+    font-size:14px;
+}
+.parent{
+    height: 446px;
+    width:1000px;
+    position: absolute;
+    top:40px;
+}
+footer{
+    position: absolute;
+    bottom: 283px;
+    right: 46px;
+}
+.four{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top:-29px;
+    text-transform: capitalize;
+
+}
+.five{
+    color:blue;
+    font-size: 15px; 
+    position: absolute;
+    top:53px;
+    left: 29px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.sixe{
+    color:white;
+    font-size: 15px; 
+    left: 0px;
+    text-transform: capitalize;
+    position: absolute;
+    top:66px;
+   
+}
+.seven{
+    color:blue;
+    font-size: 15px;
+    text-transform: capitalize;
+    position: absolute;
+    top:112px;
+}
+.logo{
+    position: absolute;
+    top: 44px;
+    left: -11px;
+}
+
+
+
+@media (max-width:1024px){
+
+.card{
+    height:1504px;
+    width: 900px;
+}
+
+.img-1{
+    width: 900px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0;
+ 
+}
+.shade{
+    width:900px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0;
+   
+}
+.shade-1{
+    width: 900px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0;
+}
+h2{
+    position: absolute;
+    top: 461px;
+    left: 217px;
+    font-size: 2.5em;
+}
+p{
+    position: absolute;
+    top: 600px;
+    left: 217px;
+    font-size: 1.3em;
+}
+.one{
+    position:absolute;
+    top: 786px;
+    left: 382px;
+    font-size: 2em;
+
+
+}
+.two{
+    position:absolute;
+    top: 917px;
+    left: 382px;
+    font-size: 2em;  
+}
+.three{
+    position:absolute;
+    top:1056px;
+    left: 382px;
+    font-size: 2em;
+}
+footer{
+    position: absolute;
+    top: 1255px;
+    right: 705px;
+    justify-content:space-between ;
+}
+.four{
+    position: absolute;
+    left: 362px;
+    top: 32px;
+}
+.five{
+    position:absolute;
+    left: 429px;
+    top: 120px;
+}
+.logo{
+    position: absolute;
+    left: 383px;
+    top: 111px;
+}
+.sixe{
+    position: absolute;
+    left: 82px;
+    top: 32px;
+
+}
+.seven{
+    position: absolute;
+    left: 75px;
+    top: 71px;
+}
+
+}
+@media (max-width:641px){
+    .card{
+        height:1380px;
+        width: 370px;
+        position: absolute;
+        top: 0;
+        left:18px;
+    }
+    .img-1{
+        width: 370px;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 0;}
+        
+
+.shade,.shade-1{
+    width: 370px;
+}
+h2{
+    font-size:1.3em;
+    position: absolute;
+    left:50px;
+}
+p{
+    position: absolute;
+    left:50px;
+    font-size: 1em;
+}
+footer{
+
+    position: absolute;
+    top: 1294px;
+    left: 199px;
+    font-size: 1em;
+
+    
+
+    
+
+}
+
+.one,.two,.three{
+    position: absolute;
+    left: 147px;
+}
+
+
+.four{
+    position: absolute;
+    bottom: 0;
+    left: -107px;
+    font-size: 0.7em;
+
+}
+.five{
+    position: absolute;
+    bottom: 0;
+    left: -28px;
+    font-size: 0.7em;
+
+}
+.logo{
+position: absolute;
+bottom: 0;
+left: -65px;
+font-size: 0.7em;
+}
+.sixe{
+    font-size:0.7em;
+}
+
+
+.seven{
+
+    position: absolute;
+    top: 67px;
+    font-size: 0.7em;
+}
+
+}
+@media (max-width:300px){
+    
+
+        footer{
+            position: absolute;
+            top: 1165px;
+
+        }
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
